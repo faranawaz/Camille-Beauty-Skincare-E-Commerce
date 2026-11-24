@@ -1,0 +1,13 @@
+{
+    "name": "beauty/store",
+    "autoload": {
+        "psr-4": {
+            "BeautyStore\\Config\\": "config/",
+            "BeautyStore\\Page\\": "page/",
+            "BeautyStore\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

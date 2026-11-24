@@ -1,0 +1,23 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Composer dependencies (install with: composer install)
+/vendor/
+
+# Local editor / operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+/cache/
+
+# User-generated/private uploads - do not publish customer or payment data
+/uploads/payment/
+/uploads/shipping_proofs/
+/uploads/profile/
